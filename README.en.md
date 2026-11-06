@@ -11,8 +11,7 @@ theme is active, using `theme.overrideTokens()`:
 
 - `light` / `dark` / `system` keep working — switching the preference switches the M3
   scheme that is composed on top;
-- layout plugins such as `dsh-web-mobile-fix` are unaffected (they change layout, this
-  changes colour and geometry);
+- layout plugins are unaffected: only colour and geometry tokens change, no layout rules;
 - disabling the plugin restores the stock look (token layer and stylesheet are removed
   together on unload);
 - no user preference is written, so the host owns the light/dark choice.
@@ -96,8 +95,8 @@ an earlier version faded the panel over its own scrim, which read as ghosting.
 ## Known limitations
 
 - `corner-shape` needs Chromium 139+; Firefox/Safari keep plain radii.
-- The plugin only changes appearance, not layout; narrow-screen layout belongs to
-  `dsh-web-mobile-fix`.
+- The plugin changes appearance and geometry tokens, not layout; narrow-screen reflow
+  needs a layout plugin.
 - Settings-row copy follows `navigator.language`, not the host i18n dictionary.
 
 ## Licence

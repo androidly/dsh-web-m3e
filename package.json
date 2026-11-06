@@ -1,6 +1,6 @@
 {
   "name": "dsh-web-m3e",
-  "version": "1.5.0",
+  "version": "1.5.1",
   "description": "Material 3 Expressive theme for the DeepSeekRuntime Web UI: spec-derived M3 colour roles, expressive shape and motion, M3 menu surfaces, and touch-browser ergonomics. Composes over the built-in light, dark and system themes.",
   "license": "MIT",
   "author": "dsh-web-m3e contributors",
