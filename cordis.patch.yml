@@ -1,0 +1,6 @@
+# Bundle patch: mount the plugin row. The row name must match this package
+# name; removing the bundle from the profile's bundles list (or this insert
+# block) restores the stock UI.
+- insert:
+    - id: web-m3e
+      name: 'dsh-web-m3e'
